@@ -1,0 +1,85 @@
+2020-03-04 01:21:50.089 +03:00 [INF] Now listening on: https://localhost:5001
+2020-03-04 01:21:50.145 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-04 01:21:50.147 +03:00 [INF] Hosting environment: Development
+2020-03-04 01:21:50.149 +03:00 [INF] Content root path: /Users/basakserit/Projects/API/DetectifyProject
+2020-03-04 01:21:50.229 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger  
+2020-03-04 01:21:50.263 +03:00 [INF] Request finished in 36.1472ms 301 
+2020-03-04 01:21:50.287 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html  
+2020-03-04 01:21:50.375 +03:00 [INF] Request finished in 87.8769ms 200 text/html;charset=utf-8
+2020-03-04 01:21:51.550 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html  
+2020-03-04 01:21:51.558 +03:00 [INF] Request finished in 8.7275ms 200 text/html;charset=utf-8
+2020-03-04 01:21:51.690 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-03-04 01:21:51.784 +03:00 [INF] Request finished in 94.2299ms 200 application/json;charset=utf-8
+2020-03-04 01:22:15.717 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/v1/Detector?domains=https%3A%2F%2Fen.wordpress.com  
+2020-03-04 01:22:15.813 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-04 01:22:15.853 +03:00 [INF] Route matched with {action = "Get", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.ProviderDetectionResponse] Get(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-04 01:22:18.015 +03:00 [INF] Executing ObjectResult, writing value of type 'DetectifyProject.V1.Models.ProviderDetectionResponse'.
+2020-03-04 01:22:18.040 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject) in 2178.549ms
+2020-03-04 01:22:18.046 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-04 01:22:18.050 +03:00 [INF] Request finished in 2333.3474ms 200 application/json; charset=utf-8
+2020-03-04 03:07:48.373 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-04 03:07:48.388 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/index.html  
+2020-03-04 03:07:48.406 +03:00 [INF] Hosting environment: Development
+2020-03-04 03:07:48.407 +03:00 [INF] Content root path: C:\Users\ugurk\Desktop\GIT REPO\DetectorAPI\DetectifyProject
+2020-03-04 03:07:48.457 +03:00 [INF] Request finished in 70.618ms 200 text/html;charset=utf-8
+2020-03-04 03:07:48.533 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/swagger-ui.css  
+2020-03-04 03:07:48.556 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-03-04 03:07:48.557 +03:00 [INF] Request finished in 24.788ms 0 text/css
+2020-03-04 03:07:48.605 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/favicon-16x16.png  
+2020-03-04 03:07:48.607 +03:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2020-03-04 03:07:48.608 +03:00 [INF] Request finished in 3.4236ms 0 image/png
+2020-03-04 03:07:48.648 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/v1/swagger.json  
+2020-03-04 03:07:48.715 +03:00 [INF] Request finished in 67.0274ms 200 application/json;charset=utf-8
+2020-03-04 03:08:04.044 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector?domains=http%3A%2F%2Fdemo.nginx.com  
+2020-03-04 03:08:04.066 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-04 03:08:04.092 +03:00 [INF] Route matched with {action = "Get", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.ProviderDetectionResponse] Get(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-04 03:08:04.162 +03:00 [ERR] Bilinen böyle bir ana bilgisayar yok.
+2020-03-04 03:08:15.565 +03:00 [INF] Executing ObjectResult, writing value of type 'DetectifyProject.V1.Models.ProviderDetectionResponse'.
+2020-03-04 03:08:15.577 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject) in 11480.6462ms
+2020-03-04 03:08:15.580 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-04 03:08:15.582 +03:00 [INF] Request finished in 11537.9621ms 200 application/json; charset=utf-8
+2020-03-04 03:10:03.597 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-04 03:10:03.608 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/index.html  
+2020-03-04 03:10:03.624 +03:00 [INF] Hosting environment: Development
+2020-03-04 03:10:03.625 +03:00 [INF] Content root path: C:\Users\ugurk\Desktop\GIT REPO\DetectorAPI\DetectifyProject
+2020-03-04 03:10:03.668 +03:00 [INF] Request finished in 61.6627ms 200 text/html;charset=utf-8
+2020-03-04 03:10:03.709 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/swagger-ui.css  
+2020-03-04 03:10:03.738 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-03-04 03:10:03.740 +03:00 [INF] Request finished in 30.47ms 0 text/css
+2020-03-04 03:10:03.778 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/favicon-16x16.png  
+2020-03-04 03:10:03.781 +03:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2020-03-04 03:10:03.782 +03:00 [INF] Request finished in 3.7049ms 0 image/png
+2020-03-04 03:10:03.808 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/v1/swagger.json  
+2020-03-04 03:10:03.878 +03:00 [INF] Request finished in 70.0086ms 200 application/json;charset=utf-8
+2020-03-04 03:10:18.758 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector/Ips?domains=http%3A%2F%2Fdemo.nginx.com  
+2020-03-04 03:10:18.780 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.GetIps (DetectifyProject)'
+2020-03-04 03:10:18.804 +03:00 [INF] Route matched with {action = "GetIps", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.IpDetectionResponse] GetIps(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-04 03:10:18.866 +03:00 [ERR] Bilinen böyle bir ana bilgisayar yok.
+2020-03-04 03:10:18.873 +03:00 [INF] Executing ObjectResult, writing value of type 'DetectifyProject.V1.Models.IpDetectionResponse'.
+2020-03-04 03:10:18.881 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.GetIps (DetectifyProject) in 73.4242ms
+2020-03-04 03:10:18.884 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.GetIps (DetectifyProject)'
+2020-03-04 03:10:18.886 +03:00 [INF] Request finished in 127.6316ms 200 application/json; charset=utf-8
+2020-03-04 03:10:40.144 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector/Ips?domains=http%3A%2F%2Fwww.sporx.com  
+2020-03-04 03:10:40.146 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.GetIps (DetectifyProject)'
+2020-03-04 03:10:40.148 +03:00 [INF] Route matched with {action = "GetIps", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.IpDetectionResponse] GetIps(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-04 03:10:40.175 +03:00 [ERR] Bilinen böyle bir ana bilgisayar yok.
+2020-03-04 03:10:40.176 +03:00 [INF] Executing ObjectResult, writing value of type 'DetectifyProject.V1.Models.IpDetectionResponse'.
+2020-03-04 03:10:40.177 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.GetIps (DetectifyProject) in 28.3342ms
+2020-03-04 03:10:40.178 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.GetIps (DetectifyProject)'
+2020-03-04 03:10:40.179 +03:00 [INF] Request finished in 36.6133ms 200 application/json; charset=utf-8
+2020-03-04 03:10:43.355 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector/Ips?domains=https%3A%2F%2Fwww.sporx.com  
+2020-03-04 03:10:43.357 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.GetIps (DetectifyProject)'
+2020-03-04 03:10:43.358 +03:00 [INF] Route matched with {action = "GetIps", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.IpDetectionResponse] GetIps(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-04 03:10:43.385 +03:00 [ERR] Bilinen böyle bir ana bilgisayar yok.
+2020-03-04 03:10:43.386 +03:00 [INF] Executing ObjectResult, writing value of type 'DetectifyProject.V1.Models.IpDetectionResponse'.
+2020-03-04 03:10:43.388 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.GetIps (DetectifyProject) in 28.9052ms
+2020-03-04 03:10:43.389 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.GetIps (DetectifyProject)'
+2020-03-04 03:10:43.390 +03:00 [INF] Request finished in 35.3161ms 200 application/json; charset=utf-8
+2020-03-04 03:10:48.875 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector/Ips?domains=https%3A%2F%2Fgoogle.com  
+2020-03-04 03:10:48.877 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.GetIps (DetectifyProject)'
+2020-03-04 03:10:48.878 +03:00 [INF] Route matched with {action = "GetIps", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.IpDetectionResponse] GetIps(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-04 03:10:48.903 +03:00 [ERR] Bilinen böyle bir ana bilgisayar yok.
+2020-03-04 03:10:48.904 +03:00 [INF] Executing ObjectResult, writing value of type 'DetectifyProject.V1.Models.IpDetectionResponse'.
+2020-03-04 03:10:48.905 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.GetIps (DetectifyProject) in 26.6892ms
+2020-03-04 03:10:48.906 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.GetIps (DetectifyProject)'
+2020-03-04 03:10:48.907 +03:00 [INF] Request finished in 32.2618ms 200 application/json; charset=utf-8

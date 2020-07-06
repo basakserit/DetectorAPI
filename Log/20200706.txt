@@ -1,0 +1,41 @@
+2020-07-06 15:37:31.908 +03:00 [INF] Now listening on: https://localhost:5001
+2020-07-06 15:37:31.956 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-07-06 15:37:31.958 +03:00 [INF] Hosting environment: Development
+2020-07-06 15:37:31.961 +03:00 [INF] Content root path: /Users/basakserit/Projects/DetectorAPI/DetectorAPI
+2020-07-06 15:37:32.273 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/detectorapi/swagger  
+2020-07-06 15:37:32.319 +03:00 [INF] Request finished in 48.688ms 301 
+2020-07-06 15:37:32.340 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/detectorapi/swagger/index.html  
+2020-07-06 15:37:32.367 +03:00 [INF] Request finished in 27.5802ms 200 text/html;charset=utf-8
+2020-07-06 15:37:33.555 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/detectorapi/swagger  
+2020-07-06 15:37:33.558 +03:00 [INF] Request finished in 3.4453ms 301 
+2020-07-06 15:37:33.562 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/detectorapi/swagger/index.html  
+2020-07-06 15:37:33.565 +03:00 [INF] Request finished in 3.3142ms 200 text/html;charset=utf-8
+2020-07-06 15:37:33.576 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/detectorapi/swagger/swagger-ui.css  
+2020-07-06 15:37:33.662 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/detectorapi/swagger/swagger-ui-bundle.js  
+2020-07-06 15:37:33.670 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-07-06 15:37:33.693 +03:00 [INF] Request finished in 117.2255ms 200 text/css
+2020-07-06 15:37:33.807 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/detectorapi/swagger/swagger-ui-standalone-preset.js  
+2020-07-06 15:37:33.846 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2020-07-06 15:37:33.850 +03:00 [INF] Request finished in 63.2182ms 200 application/javascript
+2020-07-06 15:37:33.940 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2020-07-06 15:37:33.944 +03:00 [INF] Request finished in 281.3787ms 200 application/javascript
+2020-07-06 15:37:34.106 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-07-06 15:37:34.144 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/detectorapi/swagger/favicon-32x32.png  
+2020-07-06 15:37:34.149 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2020-07-06 15:37:34.153 +03:00 [INF] Request finished in 8.6833ms 200 image/png
+2020-07-06 15:37:34.236 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/detectorapi/swagger/favicon-16x16.png  
+2020-07-06 15:37:34.240 +03:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2020-07-06 15:37:34.243 +03:00 [INF] Request finished in 7.83ms 200 image/png
+2020-07-06 15:37:34.295 +03:00 [INF] Request finished in 189.6161ms 200 application/json;charset=utf-8
+2020-07-06 15:46:35.711 +03:00 [INF] Now listening on: https://localhost:5001
+2020-07-06 15:46:35.774 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-07-06 15:46:35.776 +03:00 [INF] Hosting environment: Development
+2020-07-06 15:46:35.779 +03:00 [INF] Content root path: /Users/basakserit/Projects/DetectorAPI/DetectorAPI
+2020-07-06 15:46:36.012 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/detectorapi/swagger  
+2020-07-06 15:46:36.078 +03:00 [INF] Request finished in 68.0586ms 301 
+2020-07-06 15:46:36.100 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/detectorapi/swagger/index.html  
+2020-07-06 15:46:36.129 +03:00 [INF] Request finished in 29.0173ms 200 text/html;charset=utf-8
+2020-07-06 15:46:37.343 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/detectorapi/swagger/index.html  
+2020-07-06 15:46:37.348 +03:00 [INF] Request finished in 5.2884ms 200 text/html;charset=utf-8
+2020-07-06 15:46:37.543 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-07-06 15:46:37.681 +03:00 [INF] Request finished in 138.0957ms 200 application/json;charset=utf-8

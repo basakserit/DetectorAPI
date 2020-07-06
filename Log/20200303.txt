@@ -1,0 +1,334 @@
+2020-03-03 09:34:12.788 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-03 09:34:12.880 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/index.html  
+2020-03-03 09:34:12.983 +03:00 [INF] Hosting environment: Development
+2020-03-03 09:34:12.991 +03:00 [INF] Content root path: D:\code\open source\DetectorAPI\DetectifyProject
+2020-03-03 09:34:13.326 +03:00 [INF] Request finished in 468.0297ms 200 text/html;charset=utf-8
+2020-03-03 09:34:14.436 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/v1/swagger.json  
+2020-03-03 09:34:14.851 +03:00 [INF] Request finished in 405.3555ms 200 application/json;charset=utf-8
+2020-03-03 09:34:39.340 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector?domains=www.google.com&domains=www.stackoverflow.com  
+2020-03-03 09:34:39.456 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 09:34:39.568 +03:00 [INF] Route matched with {action = "Get", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.ProviderDetectionResponse] Get(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-03 09:34:40.076 +03:00 [ERR] An invalid request URI was provided. The request URI must either be an absolute URI or BaseAddress must be set.
+2020-03-03 09:34:40.340 +03:00 [ERR] An invalid request URI was provided. The request URI must either be an absolute URI or BaseAddress must be set.
+2020-03-03 09:34:40.516 +03:00 [ERR] Invalid URI: The format of the URI could not be determined.
+2020-03-03 09:34:40.651 +03:00 [ERR] Invalid URI: The format of the URI could not be determined.
+2020-03-03 09:34:40.667 +03:00 [INF] Executing ObjectResult, writing value of type 'DetectifyProject.V1.Models.ProviderDetectionResponse'.
+2020-03-03 09:34:40.702 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject) in 1113.4649ms
+2020-03-03 09:34:40.717 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 09:34:40.724 +03:00 [INF] Request finished in 1392.5311ms 200 application/json; charset=utf-8
+2020-03-03 09:35:04.663 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector/Ips?domains=www.stackoverflow.com&domains=www.google.com  
+2020-03-03 09:35:04.672 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.GetIps (DetectifyProject)'
+2020-03-03 09:35:04.740 +03:00 [INF] Route matched with {action = "GetIps", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.IpDetectionResponse] GetIps(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-03 09:35:05.006 +03:00 [INF] Executing ObjectResult, writing value of type 'DetectifyProject.V1.Models.IpDetectionResponse'.
+2020-03-03 09:35:05.032 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.GetIps (DetectifyProject) in 285.7587ms
+2020-03-03 09:35:05.041 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.GetIps (DetectifyProject)'
+2020-03-03 09:35:05.054 +03:00 [INF] Request finished in 397.1747ms 200 application/json; charset=utf-8
+2020-03-03 10:36:47.099 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-03 10:36:47.137 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger  
+2020-03-03 10:36:47.162 +03:00 [INF] Hosting environment: Development
+2020-03-03 10:36:47.165 +03:00 [INF] Content root path: D:\code\open source\DetectorAPI\DetectifyProject
+2020-03-03 10:36:47.215 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/index.html  
+2020-03-03 10:36:47.254 +03:00 [INF] Request finished in 93.6694ms 301 
+2020-03-03 10:36:47.302 +03:00 [INF] Request finished in 92.5107ms 200 text/html;charset=utf-8
+2020-03-03 10:36:47.315 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/swagger-ui-bundle.js  
+2020-03-03 10:36:47.315 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/swagger-ui.css  
+2020-03-03 10:36:47.373 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/swagger-ui-standalone-preset.js  
+2020-03-03 10:36:47.469 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2020-03-03 10:36:47.469 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-03-03 10:36:47.476 +03:00 [INF] Request finished in 161.6277ms 200 text/css
+2020-03-03 10:36:47.476 +03:00 [INF] Request finished in 103.5416ms 200 application/javascript
+2020-03-03 10:36:47.484 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2020-03-03 10:36:47.487 +03:00 [INF] Request finished in 172.4421ms 200 application/javascript
+2020-03-03 10:36:48.380 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/v1/swagger.json  
+2020-03-03 10:36:48.407 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/favicon-32x32.png  
+2020-03-03 10:36:48.411 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2020-03-03 10:36:48.415 +03:00 [INF] Request finished in 8.3725ms 200 image/png
+2020-03-03 10:36:48.488 +03:00 [INF] Request finished in 108.0379ms 200 application/json;charset=utf-8
+2020-03-03 10:38:23.720 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector?domains=www.google.com&domains=https%3A%2F%2Fwww.google.com  
+2020-03-03 10:38:23.756 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 10:38:23.794 +03:00 [INF] Route matched with {action = "Get", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.ProviderDetectionResponse] Get(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-03 10:38:24.050 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-03-03 10:38:24.059 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject) in 258.457ms
+2020-03-03 10:38:24.064 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 10:38:24.067 +03:00 [INF] Request finished in 347.7527ms 400 application/problem+json; charset=utf-8
+2020-03-03 10:38:37.345 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector?domains=www.google.com&domains=https%3A%2F%2Fwww.google.com  
+2020-03-03 10:38:37.349 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 10:38:37.354 +03:00 [INF] Route matched with {action = "Get", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.ProviderDetectionResponse] Get(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-03 10:42:43.464 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-03 10:42:43.482 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/index.html  
+2020-03-03 10:42:43.505 +03:00 [INF] Hosting environment: Development
+2020-03-03 10:42:43.507 +03:00 [INF] Content root path: D:\code\open source\DetectorAPI\DetectifyProject
+2020-03-03 10:42:43.584 +03:00 [INF] Request finished in 106.2941ms 200 text/html;charset=utf-8
+2020-03-03 10:42:44.397 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/v1/swagger.json  
+2020-03-03 10:42:44.506 +03:00 [INF] Request finished in 109.4395ms 200 application/json;charset=utf-8
+2020-03-03 10:43:41.598 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector?domains=www.google.com&domains=https%3A%2F%2Fwww.google.com&domains=google.com&domains=asda&domains=https%3A%2F%2Fgoogle.com  
+2020-03-03 10:43:41.636 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 10:43:41.672 +03:00 [INF] Route matched with {action = "Get", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.ProviderDetectionResponse] Get(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-03 10:43:41.696 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-03-03 10:43:41.704 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject) in 25.9007ms
+2020-03-03 10:43:41.709 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 10:43:41.711 +03:00 [INF] Request finished in 115.9038ms 400 application/problem+json; charset=utf-8
+2020-03-03 10:43:57.603 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector?domains=www.google.com&domains=https%3A%2F%2Fwww.google.com&domains=google.com&domains=asda&domains=https%3A%2F%2Fgoogle.com  
+2020-03-03 10:43:57.607 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 10:43:57.610 +03:00 [INF] Route matched with {action = "Get", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.ProviderDetectionResponse] Get(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-03 10:44:26.321 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-03-03 10:44:26.324 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject) in 28711.1192ms
+2020-03-03 10:44:26.326 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 10:44:26.328 +03:00 [INF] Request finished in 28725.6479ms 400 application/problem+json; charset=utf-8
+2020-03-03 10:45:04.741 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-03 10:45:04.761 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/index.html  
+2020-03-03 10:45:04.780 +03:00 [INF] Hosting environment: Development
+2020-03-03 10:45:04.782 +03:00 [INF] Content root path: D:\code\open source\DetectorAPI\DetectifyProject
+2020-03-03 10:45:04.835 +03:00 [INF] Request finished in 78.7125ms 200 text/html;charset=utf-8
+2020-03-03 10:45:05.220 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector?domains=www.google.com&domains=https%3A%2F%2Fwww.google.com&domains=google.com&domains=asda&domains=https%3A%2F%2Fgoogle.com  
+2020-03-03 10:45:05.278 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 10:45:05.316 +03:00 [INF] Route matched with {action = "Get", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.ProviderDetectionResponse] Get(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-03 10:45:05.481 +03:00 [ERR] An invalid request URI was provided. The request URI must either be an absolute URI or BaseAddress must be set.
+2020-03-03 10:45:06.845 +03:00 [ERR] An invalid request URI was provided. The request URI must either be an absolute URI or BaseAddress must be set.
+2020-03-03 10:45:06.953 +03:00 [ERR] An invalid request URI was provided. The request URI must either be an absolute URI or BaseAddress must be set.
+2020-03-03 10:45:07.690 +03:00 [ERR] Invalid URI: The format of the URI could not be determined.
+2020-03-03 10:45:08.499 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject) in 3176.7085ms
+2020-03-03 10:45:08.581 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 10:45:08.745 +03:00 [ERR] System.NotSupportedException:  The ReadAsync method cannot be called when another read operation is pending.
+   at System.Net.Security.SslStream.ReadAsyncInternal[TReadAdapter](TReadAdapter adapter, Memory`1 buffer)
+   at System.Net.Security.SslStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Net.Http.HttpConnection.Fill()
+   at System.Net.Http.HttpConnection.ChunkedEncodingReadStream.Read(Span`1 buffer)
+   at System.Net.Http.HttpBaseStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at DetectifyProject.Service.WordPressProviderDetector.Detect(IEnumerable`1 hostnames) in D:\code\open source\DetectorAPI\DetectifyProject\Service\WordPressProviderDetector.cs:line 36
+   at DetectifyProject.Service.DetectorService.DetectProvider(IEnumerable`1 hostnames) in D:\code\open source\DetectorAPI\DetectifyProject\Service\DetectorService.cs:line 31
+   at DetectifyProject.V1.Controllers.DetectorController.Get(String[] domains) in D:\code\open source\DetectorAPI\DetectifyProject\V1\Controllers\DetectorController.cs:line 32
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at DetectifyProject.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\code\open source\DetectorAPI\DetectifyProject\ErrorHandlingMiddleware.cs:line 27
+2020-03-03 10:45:08.861 +03:00 [INF] Request finished in 3640.545ms 500 application/json
+2020-03-03 10:45:16.488 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector?domains=www.google.com&domains=https%3A%2F%2Fwww.google.com&domains=google.com&domains=asda&domains=https%3A%2F%2Fgoogle.com  
+2020-03-03 10:45:16.494 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 10:45:16.499 +03:00 [INF] Route matched with {action = "Get", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.ProviderDetectionResponse] Get(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-03 10:45:39.175 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-03 10:45:39.199 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/index.html  
+2020-03-03 10:45:39.218 +03:00 [INF] Hosting environment: Development
+2020-03-03 10:45:39.221 +03:00 [INF] Content root path: D:\code\open source\DetectorAPI\DetectifyProject
+2020-03-03 10:45:39.284 +03:00 [INF] Request finished in 88.9198ms 200 text/html;charset=utf-8
+2020-03-03 10:45:40.111 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector?domains=www.google.com&domains=https%3A%2F%2Fwww.google.com&domains=google.com&domains=asda&domains=https%3A%2F%2Fgoogle.com  
+2020-03-03 10:45:40.165 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 10:45:40.198 +03:00 [INF] Route matched with {action = "Get", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.ProviderDetectionResponse] Get(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-03 10:45:44.376 +03:00 [ERR] An invalid request URI was provided. The request URI must either be an absolute URI or BaseAddress must be set.
+2020-03-03 10:45:45.133 +03:00 [ERR] An invalid request URI was provided. The request URI must either be an absolute URI or BaseAddress must be set.
+2020-03-03 10:45:45.240 +03:00 [ERR] An invalid request URI was provided. The request URI must either be an absolute URI or BaseAddress must be set.
+2020-03-03 10:45:45.818 +03:00 [ERR] Invalid URI: The format of the URI could not be determined.
+2020-03-03 10:45:46.617 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject) in 6412.7505ms
+2020-03-03 10:45:46.694 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 10:45:46.850 +03:00 [ERR] System.NotSupportedException:  The ReadAsync method cannot be called when another read operation is pending.
+   at System.Net.Security.SslStream.ReadAsyncInternal[TReadAdapter](TReadAdapter adapter, Memory`1 buffer)
+   at System.Net.Security.SslStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Net.Http.HttpConnection.Fill()
+   at System.Net.Http.HttpConnection.ChunkedEncodingReadStream.Read(Span`1 buffer)
+   at System.Net.Http.HttpBaseStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at DetectifyProject.Service.WordPressProviderDetector.Detect(IEnumerable`1 hostnames) in D:\code\open source\DetectorAPI\DetectifyProject\Service\WordPressProviderDetector.cs:line 36
+   at DetectifyProject.Service.DetectorService.DetectProvider(IEnumerable`1 hostnames) in D:\code\open source\DetectorAPI\DetectifyProject\Service\DetectorService.cs:line 31
+   at DetectifyProject.V1.Controllers.DetectorController.Get(String[] domains) in D:\code\open source\DetectorAPI\DetectifyProject\V1\Controllers\DetectorController.cs:line 32
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at DetectifyProject.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\code\open source\DetectorAPI\DetectifyProject\ErrorHandlingMiddleware.cs:line 27
+2020-03-03 10:45:46.961 +03:00 [INF] Request finished in 6850.3657ms 500 application/json
+2020-03-03 10:52:12.097 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-03 10:52:12.114 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/index.html  
+2020-03-03 10:52:12.136 +03:00 [INF] Hosting environment: Development
+2020-03-03 10:52:12.138 +03:00 [INF] Content root path: D:\code\open source\DetectorAPI\DetectifyProject
+2020-03-03 10:52:12.204 +03:00 [INF] Request finished in 93.5967ms 200 text/html;charset=utf-8
+2020-03-03 10:52:13.200 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector?domains=www.google.com&domains=https%3A%2F%2Fwww.google.com&domains=google.com&domains=asda&domains=https%3A%2F%2Fgoogle.com  
+2020-03-03 10:52:13.242 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 10:52:13.288 +03:00 [INF] Route matched with {action = "Get", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.ProviderDetectionResponse] Get(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-03 10:52:15.294 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/v1/swagger.json  
+2020-03-03 10:52:15.428 +03:00 [ERR] An invalid request URI was provided. The request URI must either be an absolute URI or BaseAddress must be set.
+2020-03-03 10:52:15.582 +03:00 [INF] Request finished in 287.8535ms 200 application/json;charset=utf-8
+2020-03-03 10:52:16.074 +03:00 [ERR] An invalid request URI was provided. The request URI must either be an absolute URI or BaseAddress must be set.
+2020-03-03 10:52:16.184 +03:00 [ERR] An invalid request URI was provided. The request URI must either be an absolute URI or BaseAddress must be set.
+2020-03-03 10:52:16.779 +03:00 [ERR] Invalid URI: The format of the URI could not be determined.
+2020-03-03 10:52:17.220 +03:00 [ERR] Invalid URI: The format of the URI could not be determined.
+2020-03-03 10:52:17.282 +03:00 [ERR] Invalid URI: The format of the URI could not be determined.
+2020-03-03 10:52:17.821 +03:00 [INF] Executing ObjectResult, writing value of type 'DetectifyProject.V1.Models.ProviderDetectionResponse'.
+2020-03-03 10:52:17.834 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject) in 4538.716ms
+2020-03-03 10:52:17.839 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 10:52:17.844 +03:00 [INF] Request finished in 4643.9115ms 200 application/json; charset=utf-8
+2020-03-03 11:04:41.995 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-03 11:04:42.020 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/index.html  
+2020-03-03 11:04:42.049 +03:00 [INF] Hosting environment: Development
+2020-03-03 11:04:42.054 +03:00 [INF] Content root path: D:\code\open source\DetectorAPI\DetectifyProject
+2020-03-03 11:04:42.123 +03:00 [INF] Request finished in 112.0216ms 200 text/html;charset=utf-8
+2020-03-03 11:04:42.410 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/v1/swagger.json  
+2020-03-03 11:04:42.535 +03:00 [INF] Request finished in 124.892ms 200 application/json;charset=utf-8
+2020-03-03 11:06:34.871 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector?domains=https%3A%2F%2Fwww.google.com&domains=https%3A%2F%2Fgoogle.com&domains=http%3A%2F%2Fwww.google.com&domains=www.google.com&domains=asdas  
+2020-03-03 11:06:34.909 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 11:06:34.945 +03:00 [INF] Route matched with {action = "Get", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.ProviderDetectionResponse] Get(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-03 11:06:34.969 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-03-03 11:06:34.978 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject) in 27.0047ms
+2020-03-03 11:06:34.982 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 11:06:34.985 +03:00 [INF] Request finished in 114.361ms 400 application/problem+json; charset=utf-8
+2020-03-03 11:07:33.092 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-03 11:07:33.114 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/index.html  
+2020-03-03 11:07:33.132 +03:00 [INF] Hosting environment: Development
+2020-03-03 11:07:33.135 +03:00 [INF] Content root path: D:\code\open source\DetectorAPI\DetectifyProject
+2020-03-03 11:07:33.188 +03:00 [INF] Request finished in 78.1116ms 200 text/html;charset=utf-8
+2020-03-03 11:08:06.697 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-03 11:08:06.726 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/index.html  
+2020-03-03 11:08:06.746 +03:00 [INF] Hosting environment: Development
+2020-03-03 11:08:06.748 +03:00 [INF] Content root path: D:\code\open source\DetectorAPI\DetectifyProject
+2020-03-03 11:08:06.811 +03:00 [INF] Request finished in 90.1712ms 200 text/html;charset=utf-8
+2020-03-03 11:08:07.109 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/v1/swagger.json  
+2020-03-03 11:08:07.236 +03:00 [INF] Request finished in 126.9191ms 200 application/json;charset=utf-8
+2020-03-03 11:08:08.404 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector?domains=https%3A%2F%2Fwww.google.com&domains=https%3A%2F%2Fgoogle.com&domains=http%3A%2F%2Fwww.google.com&domains=www.google.com&domains=asdas  
+2020-03-03 11:08:08.441 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 11:08:08.478 +03:00 [INF] Route matched with {action = "Get", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.ProviderDetectionResponse] Get(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-03 11:08:08.502 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2020-03-03 11:08:08.512 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject) in 26.5424ms
+2020-03-03 11:08:08.517 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 11:08:08.520 +03:00 [INF] Request finished in 115.9736ms 400 application/problem+json; charset=utf-8
+2020-03-03 11:08:32.991 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector?domains=https%3A%2F%2Fwww.google.com&domains=https%3A%2F%2Fgoogle.com&domains=http%3A%2F%2Fwww.google.com&domains=www.google.com  
+2020-03-03 11:08:32.995 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 11:08:33.004 +03:00 [INF] Route matched with {action = "Get", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.ProviderDetectionResponse] Get(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-03 11:08:35.957 +03:00 [ERR] An invalid request URI was provided. The request URI must either be an absolute URI or BaseAddress must be set.
+2020-03-03 11:08:37.669 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject) in 4662.994ms
+2020-03-03 11:08:37.739 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 11:08:37.891 +03:00 [ERR] System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+   at System.Net.Http.HttpConnection.TryReadNextLine(ReadOnlySpan`1& line)
+   at System.Net.Http.HttpConnection.ChunkedEncodingReadStream.ReadChunkFromConnectionBuffer(Int32 maxBytesToRead, CancellationTokenRegistration cancellationRegistration)
+   at System.Net.Http.HttpConnection.ChunkedEncodingReadStream.ReadChunksFromConnectionBuffer(Span`1 buffer, CancellationTokenRegistration cancellationRegistration)
+   at System.Net.Http.HttpConnection.ChunkedEncodingReadStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.StreamReader.ReadBufferAsync(CancellationToken cancellationToken)
+   at System.IO.StreamReader.ReadToEndAsyncInternal()
+   at DetectifyProject.Service.WordPressProviderDetector.Detect(IEnumerable`1 hostnames) in D:\code\open source\DetectorAPI\DetectifyProject\Service\WordPressProviderDetector.cs:line 34
+   at DetectifyProject.Service.DetectorService.DetectProvider(IEnumerable`1 hostnames) in D:\code\open source\DetectorAPI\DetectifyProject\Service\DetectorService.cs:line 31
+   at DetectifyProject.V1.Controllers.DetectorController.Get(String[] domains) in D:\code\open source\DetectorAPI\DetectifyProject\V1\Controllers\DetectorController.cs:line 32
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at DetectifyProject.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\code\open source\DetectorAPI\DetectifyProject\ErrorHandlingMiddleware.cs:line 27
+2020-03-03 11:08:37.996 +03:00 [INF] Request finished in 5009.0941ms 500 application/json
+2020-03-03 11:13:01.723 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-03 11:13:01.749 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/index.html  
+2020-03-03 11:13:01.770 +03:00 [INF] Hosting environment: Development
+2020-03-03 11:13:01.773 +03:00 [INF] Content root path: D:\code\open source\DetectorAPI\DetectifyProject
+2020-03-03 11:13:01.835 +03:00 [INF] Request finished in 90.9821ms 200 text/html;charset=utf-8
+2020-03-03 11:13:02.391 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/v1/swagger.json  
+2020-03-03 11:13:02.494 +03:00 [INF] Request finished in 103.0867ms 200 application/json;charset=utf-8
+2020-03-03 11:13:05.813 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector?domains=https%3A%2F%2Fwww.google.com&domains=https%3A%2F%2Fgoogle.com&domains=http%3A%2F%2Fwww.google.com&domains=www.google.com  
+2020-03-03 11:13:05.848 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 11:13:05.888 +03:00 [INF] Route matched with {action = "Get", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.ProviderDetectionResponse] Get(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-03 11:13:07.251 +03:00 [ERR] An invalid request URI was provided. The request URI must either be an absolute URI or BaseAddress must be set.
+2020-03-03 11:13:08.345 +03:00 [ERR] Could not find file 'D:\code\open source\DetectorAPI\DetectifyProject\www.google.com'.
+2020-03-03 11:13:08.355 +03:00 [INF] Executing ObjectResult, writing value of type 'DetectifyProject.V1.Models.ProviderDetectionResponse'.
+2020-03-03 11:13:08.368 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject) in 2472.5916ms
+2020-03-03 11:13:08.373 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 11:13:08.377 +03:00 [INF] Request finished in 2564.5271ms 200 application/json; charset=utf-8
+2020-03-03 11:13:14.385 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector?domains=https%3A%2F%2Fwww.google.com&domains=https%3A%2F%2Fgoogle.com&domains=http%3A%2F%2Fwww.google.com&domains=www.google.com  
+2020-03-03 11:13:14.388 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 11:13:14.394 +03:00 [INF] Route matched with {action = "Get", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.ProviderDetectionResponse] Get(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-03 11:13:15.757 +03:00 [ERR] An invalid request URI was provided. The request URI must either be an absolute URI or BaseAddress must be set.
+2020-03-03 11:13:34.459 +03:00 [ERR] Could not find file 'D:\code\open source\DetectorAPI\DetectifyProject\www.google.com'.
+2020-03-03 11:13:34.463 +03:00 [INF] Executing ObjectResult, writing value of type 'DetectifyProject.V1.Models.ProviderDetectionResponse'.
+2020-03-03 11:13:34.467 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject) in 20068.5736ms
+2020-03-03 11:13:34.471 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 11:13:34.473 +03:00 [INF] Request finished in 20088.8327ms 200 application/json; charset=utf-8
+2020-03-03 11:13:51.022 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector?domains=https%3A%2F%2Fwww.google.com&domains=https%3A%2F%2Fgoogle.com&domains=http%3A%2F%2Fwww.google.com&domains=www.google.com&domains=https%3A%2F%2Ftr.wordpress.com%2F  
+2020-03-03 11:13:51.026 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 11:13:51.029 +03:00 [INF] Route matched with {action = "Get", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.ProviderDetectionResponse] Get(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-03 11:13:52.011 +03:00 [ERR] An invalid request URI was provided. The request URI must either be an absolute URI or BaseAddress must be set.
+2020-03-03 11:13:58.889 +03:00 [ERR] Could not find file 'D:\code\open source\DetectorAPI\DetectifyProject\www.google.com'.
+2020-03-03 11:14:02.580 +03:00 [INF] Executing ObjectResult, writing value of type 'DetectifyProject.V1.Models.ProviderDetectionResponse'.
+2020-03-03 11:14:02.584 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject) in 11551.4381ms
+2020-03-03 11:14:02.587 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 11:14:02.590 +03:00 [INF] Request finished in 11567.8975ms 200 application/json; charset=utf-8
+2020-03-03 11:52:46.195 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-03 11:52:46.219 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/index.html  
+2020-03-03 11:52:46.238 +03:00 [INF] Hosting environment: Development
+2020-03-03 11:52:46.241 +03:00 [INF] Content root path: D:\code\open source\DetectorAPI\DetectifyProject
+2020-03-03 11:52:46.310 +03:00 [INF] Request finished in 96.1696ms 200 text/html;charset=utf-8
+2020-03-03 11:52:46.584 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/v1/swagger.json  
+2020-03-03 11:52:46.701 +03:00 [INF] Request finished in 117.0678ms 200 application/json;charset=utf-8
+2020-03-03 11:54:17.915 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector?domains=https%3A%2F%2Fwww.google.com&domains=http%3A%2F%2Fgoogle.com&domains=tr.wordpress.com  
+2020-03-03 11:54:17.949 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 11:54:17.986 +03:00 [INF] Route matched with {action = "Get", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.ProviderDetectionResponse] Get(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-03 11:54:21.182 +03:00 [ERR] An invalid request URI was provided. The request URI must either be an absolute URI or BaseAddress must be set.
+2020-03-03 11:54:22.119 +03:00 [ERR] Could not find file 'D:\code\open source\DetectorAPI\DetectifyProject\tr.wordpress.com'.
+2020-03-03 11:54:22.130 +03:00 [INF] Executing ObjectResult, writing value of type 'DetectifyProject.V1.Models.ProviderDetectionResponse'.
+2020-03-03 11:54:22.151 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject) in 4156.7993ms
+2020-03-03 11:54:22.159 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 11:54:22.164 +03:00 [INF] Request finished in 4249.7091ms 200 application/json; charset=utf-8
+2020-03-03 11:55:19.486 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-03 11:55:19.509 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/index.html  
+2020-03-03 11:55:19.530 +03:00 [INF] Hosting environment: Development
+2020-03-03 11:55:19.533 +03:00 [INF] Content root path: D:\code\open source\DetectorAPI\DetectifyProject
+2020-03-03 11:55:19.616 +03:00 [INF] Request finished in 113.8108ms 200 text/html;charset=utf-8
+2020-03-03 11:55:19.754 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector?domains=https%3A%2F%2Fwww.google.com&domains=http%3A%2F%2Fgoogle.com&domains=https%3A%2F%2Ftr.wordpress.com  
+2020-03-03 11:55:19.817 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 11:55:19.859 +03:00 [INF] Route matched with {action = "Get", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.ProviderDetectionResponse] Get(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-03 11:55:23.547 +03:00 [INF] Executing ObjectResult, writing value of type 'DetectifyProject.V1.Models.ProviderDetectionResponse'.
+2020-03-03 11:55:23.563 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject) in 3696.939ms
+2020-03-03 11:55:23.569 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 11:55:23.574 +03:00 [INF] Request finished in 3820.4467ms 200 application/json; charset=utf-8
+2020-03-03 11:55:44.013 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector?domains=https%3A%2F%2Fwww.google.com&domains=http%3A%2F%2Fgoogle.com&domains=https%3A%2F%2Ftr.wordpress.com&domains=tr.wordpress.com  
+2020-03-03 11:55:44.020 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 11:55:44.027 +03:00 [INF] Route matched with {action = "Get", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.ProviderDetectionResponse] Get(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-03 11:55:45.231 +03:00 [ERR] An invalid request URI was provided. The request URI must either be an absolute URI or BaseAddress must be set.
+2020-03-03 11:55:46.506 +03:00 [ERR] Could not find file 'D:\code\open source\DetectorAPI\DetectifyProject\tr.wordpress.com'.
+2020-03-03 11:55:46.510 +03:00 [INF] Executing ObjectResult, writing value of type 'DetectifyProject.V1.Models.ProviderDetectionResponse'.
+2020-03-03 11:55:46.517 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject) in 2485.5698ms
+2020-03-03 11:55:46.520 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.Get (DetectifyProject)'
+2020-03-03 11:55:46.523 +03:00 [INF] Request finished in 2511.6159ms 200 application/json; charset=utf-8
+2020-03-03 12:02:08.716 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-03 12:02:08.739 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/index.html  
+2020-03-03 12:02:08.771 +03:00 [INF] Hosting environment: Development
+2020-03-03 12:02:08.773 +03:00 [INF] Content root path: D:\code\open source\DetectorAPI\DetectifyProject
+2020-03-03 12:02:08.839 +03:00 [INF] Request finished in 104.9017ms 200 text/html;charset=utf-8
+2020-03-03 12:02:09.114 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/v1/swagger.json  
+2020-03-03 12:02:09.237 +03:00 [INF] Request finished in 123.1863ms 200 application/json;charset=utf-8
+2020-03-03 12:02:56.289 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-03 12:02:56.309 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/index.html  
+2020-03-03 12:02:56.328 +03:00 [INF] Hosting environment: Development
+2020-03-03 12:02:56.330 +03:00 [INF] Content root path: D:\code\open source\DetectorAPI\DetectifyProject
+2020-03-03 12:02:56.391 +03:00 [INF] Request finished in 86.156ms 200 text/html;charset=utf-8
+2020-03-03 12:02:57.383 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/swagger/v1/swagger.json  
+2020-03-03 12:02:57.490 +03:00 [INF] Request finished in 106.7378ms 200 application/json;charset=utf-8
+2020-03-03 12:03:36.590 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44326/api/v1/Detector/Ips?domains=www.google.com&domains=https%3A%2F%2Fwww.google.com&domains=http%3A%2F%2Fwww.google.com&domains=https%3A%2F%2Fgoogle.com&domains=http%3A%2F%2Fgoogle.com  
+2020-03-03 12:03:36.632 +03:00 [INF] Executing endpoint 'DetectifyProject.V1.Controllers.DetectorController.GetIps (DetectifyProject)'
+2020-03-03 12:03:36.674 +03:00 [INF] Route matched with {action = "GetIps", controller = "Detector"}. Executing controller action with signature System.Threading.Tasks.Task`1[DetectifyProject.V1.Models.IpDetectionResponse] GetIps(System.String[]) on controller DetectifyProject.V1.Controllers.DetectorController (DetectifyProject).
+2020-03-03 12:03:36.870 +03:00 [ERR] No such host is known.
+2020-03-03 12:03:36.960 +03:00 [ERR] No such host is known.
+2020-03-03 12:03:37.051 +03:00 [ERR] No such host is known.
+2020-03-03 12:03:37.143 +03:00 [ERR] No such host is known.
+2020-03-03 12:03:37.152 +03:00 [INF] Executing ObjectResult, writing value of type 'DetectifyProject.V1.Models.IpDetectionResponse'.
+2020-03-03 12:03:37.164 +03:00 [INF] Executed action DetectifyProject.V1.Controllers.DetectorController.GetIps (DetectifyProject) in 483.8572ms
+2020-03-03 12:03:37.168 +03:00 [INF] Executed endpoint 'DetectifyProject.V1.Controllers.DetectorController.GetIps (DetectifyProject)'
+2020-03-03 12:03:37.172 +03:00 [INF] Request finished in 581.9387ms 200 application/json; charset=utf-8
